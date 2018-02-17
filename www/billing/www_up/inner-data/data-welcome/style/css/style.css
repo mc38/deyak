@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+}
+.body{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+}
+
+.main-container{
+	width:1024px;
+	min-height:500px;
+	border:0px solid #000;
+}
+
+
+
+.main-panel{
+	margin-right:20px;
+	width:780px;
+	height:640px;
+	border-left:1px solid rgb(152, 38, 26);
+	border-right:1px solid rgb(152, 38, 26);
+	border-bottom:1px solid rgb(152, 38, 26);
+	float:right;
+	overflow:hidden;
+}
+.action-tab{
+	width:780px;
+	height:42px;
+	border-bottom:1px solid rgba(152, 38, 26,1);
+	background:rgb(251, 247, 246);
+	position:fixed;
+	box-shadow:0px 0px 7px 2px rgba(0,0,0,0.1785);
+	text-align:left;
+}
+button[type=button],.action-tab button[type=reset]{
+	font-size:14px;
+	outline:none;
+	width:100px;
+	height:26px;
+	margin-top:8px;
+	margin-left:20px;
+	border-radius:5px;
+	background: linear-gradient(rgba(152,38,26,0.6),rgba(152,38,26,1));
+  	color:#fff;
+  	outline: none;
+  	border: 1px solid rgba(86, 22, 13,1);
+ 	box-shadow: 0px 2px 7px 1px rgba(0,0,0,0.1785);
+  	text-shadow: 0px 0px 2px rgba(86, 22, 13,0.4);
+	cursor:pointer;
+}
+button[type=button]:active,.action-tab button[type=reset]:active{
+	background:rgba(152,38,26,1);
+}
+.action-tab h2{
+	margin:0;
+	padding:0;
+	width:100%;
+	text-align:center;
+	margin-top:5px;
+	color:rgb(86, 22, 13);
+	text-shadow:0px 0px 1px rgb(152,38,26);
+	font-weight:100;
+}
+
+
+
+/**********all body style************/
+
+
+
+.form-data{
+	width:100%;
+	height:400px;
+	margin-top:60px;
+}
+.content{
+	width:500px;
+	height:250px;
+	border:1px solid #000;
+	margin-top:150px;
+	padding:20px 0;
+	border-radius:10px;
+	background:rgb(251, 247, 246);
+	box-shadow:0px 0px 3px 1px rgb(32,66,31);
+}
+.content .code-tag{
+	font-size:40px;
+}
+.content .code-tag_1{
+	font-size:28px;
+	padding-top:20px;
+}
+.content .code-tag_2{
+	font-size:42px;
+	padding-top:30px;
+	font-weight:bold;
+	color:rgb(152, 38, 26);
+}
+.content .code-tag_3{
+	font-size:18px;
+	padding-top:40px;
+	word-spacing:5px;
+}
+.content .code-tag_3 span{
+	font-weight:bold;
+	color:rgb(152, 38, 26);
+}

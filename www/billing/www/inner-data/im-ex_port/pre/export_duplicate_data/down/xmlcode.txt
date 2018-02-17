@@ -1,0 +1,15 @@
+<?php
+if(isset($_GET['fname']) && $_GET['fname'] !=""){
+	$fname = $_GET['fname'];
+
+	$fnamez = $fname .".zip";
+	header($_SERVER['SERVER_PROTOCOL'].' 200 OK');
+	header("Content-Type: application/zip");
+	header("Content-Transfer-Encoding: Binary");
+	header("Content-Disposition: attachment; filename=\"".basename($fnamez)."\""); 
+	readfile($fnamez);
+
+	//unlink($fname .'.zip');
+	//unlink($fname .".php");
+}
+?>

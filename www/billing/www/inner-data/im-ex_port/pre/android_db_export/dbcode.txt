@@ -1,0 +1,11 @@
+<?php
+if(isset($_GET['fname']) && $_GET['fname'] !=""){
+	$fname = $_GET['fname'];
+	header('Content-Type: application/octet-stream');
+    header('Content-Disposition: attachment; filename="tsecldb.db"');
+	readfile($fname .'.db');
+
+	unlink($fname .'.db');
+	unlink($fname .".php");
+}
+?>

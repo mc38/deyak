@@ -1,0 +1,146 @@
+html,body{
+	display: block;
+	padding:0px;
+	margin:0px;
+	height:100%;
+	width:100%;
+	cursor:default;
+	font-family:calibri;
+}
+
+.body{
+	height: 100%;
+	width: 100%;
+}
+
+.heading{
+	background: #0EAF7C;
+	height: 100px;
+	width: 100%;
+}
+
+
+.logo_container{
+	background:;
+	float:left;
+}
+
+.logo_container i.logo{
+	background:url(deyak_logo.png) no-repeat;
+	background-size:60px;
+	border:2px solid #fff;
+	border-radius:10px;
+	/*box-shadow:5px 5px 8px gray;*/
+	float:left;
+	height:60px;
+	margin:10px 10px 10px 30px;
+	width:60px;
+}
+
+.logo_container span.logo_content{
+	color:#fff;
+	display:block;
+	font-family:inherit;
+	font-size:36px;
+	padding-top:25px;
+	float: left;
+}
+
+
+.head_text{
+	display: block;
+	font-family: inherit;
+	font-size: 26px;
+	font-weight: bold;
+	color: #005C00;
+	padding-top: 30px;
+
+}
+
+.pass_heading{
+	font-family: inherit;
+	font-size: 22px;
+	color: gray;
+	display: block;
+	padding: 10px;
+}
+
+.ip_box{
+	width: 300px;
+	display: block;
+	height: 80px;
+	padding: 5px 10px;
+}
+
+.ip_box span{
+	display: block;
+	color: #009459;
+	font-size: 16px;
+	font-family: inherit;
+	text-align: left;
+}
+
+.ip_box input,select{
+	display: block;
+	width: 100%;
+	height: 35px;
+	border-radius: 5px;
+	border:1px solid #BFBFBF;
+	padding: 0px 10px;
+	margin:10px 0px;
+}
+
+.ip_box select{
+	float: left;
+	width: 50%;
+}
+
+.ip_box input:focus,.ip_box select:focus{
+	outline: none;
+}
+
+
+.ip_box button{
+	height: auto;
+	width: auto;
+	border:2px solid #5EB582;
+	background: transparent;
+	color: #124C2B;
+	font-size: 22px;	
+	border-radius: 8px;
+	margin-top: 30px;
+	cursor: pointer;
+	font-family: inherit;
+	padding: 10px 15px !important;
+}
+
+.ip_box button:hover{
+	background: #3ABA6F;
+	border:2px solid #5EB582;
+	color: #fff;
+	padding: 10px 15px !important;
+}
+
+.ip_box button:focus{
+	outline: none;
+	background:#309C5D;
+	padding: 10px 15px !important;
+}
+
+.but_container{
+	padding: 20px 30px;
+	width: calc(100% - 60px);
+}
+.but_container .ip_box{
+	width: auto !important;
+	float: left !important;
+}
+
+table{
+	width:auto; 
+	border:1px solid #bbb; 
+	border-collapse:collapse;
+	margin-top: 50px;
+}
+th{text-align: center !important;}
+td{padding:0px 5px !important;}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Created by Mickel Chowdhury,(DOB- 13-03-1992)
+ * Agartala,Tripura,India,pin 799006
+ * Contact - 9485117029
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slab_data"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/all_border" >
+    
+    <TextView
+        android:id="@+id/slab_name"
+        
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:paddingLeft="10dp" />
+    
+    <TextView
+        android:id="@+id/slab_unit"
+        
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:gravity="right" />
+    
+    <TextView
+        android:id="@+id/slab_rate"
+        
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:gravity="right" />
+    
+    <TextView
+        android:id="@+id/slab_amount"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:gravity="right"
+        android:paddingRight="10dp" />
+    
+	
+</LinearLayout>

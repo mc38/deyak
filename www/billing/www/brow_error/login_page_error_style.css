@@ -1,0 +1,116 @@
+/*##### DEVELOPED & COPYRIGHTED BY HAWK EYE #####
+##### ALL RIGHTS RESERVED BY HAWK EYE ######
+##### MODIFICATION & DISTRIBUTION OF THE SOURCE CODE IS STRICTLY DENIED #####
+##### ANY KIND OF MODIFICATION TO THIS PAGE MAY LEAD TO AN UNSTABLE SYSTEM #####
+
+##### THIS COPY OF LISCENCE IS OWNED BY SOCIETY FOR ENTREPRENURSHIP DEVELOPMENT #####
+
+
+##### PAGE INDEX : 1 #####
+##### PAGE NAME : LOGIN PAGE #####--> */
+
+
+
+html, body 
+
+{
+
+text-align: left;
+direction: ltr;
+unicode-bidi: embed;
+-webkit-font-smoothing: antialiased;
+font-family: win8,'Segoe UI', Tahoma, sans-serif;
+font-size:1em;
+margin: 0 0 0 0;
+background: #FFFFFF url("../images/grey_bg.jpg") repeat-x scroll top center;
+
+}
+
+
+
+/*################## CONTAINER ( id=container) ##################*/
+
+.container{
+
+float:left;
+width:100%;
+height:auto;
+border: 0px solid black;
+
+}
+
+.middle-container
+
+{
+
+margin-top: 60px;
+margin-left:auto;
+margin-right:auto;
+width:970px;
+height:500px;
+border: 0px solid black;
+
+
+}
+
+.middle-container h1 {
+font-family: 'Open Sans Light',sans-serif;
+font-size: 72px;
+letter-spacing: 0px;
+font-weight: normal;
+display: block;
+text-align: center;
+margin-top: 0px;
+text-shadow: 0 1px 0 rgba(255,255,255,0.75);
+color: #484848;
+border:0px solid black;
+}
+
+
+.middle-container p
+{
+font-size: 22px;
+text-shadow: 0 1px 0 rgba(255,255,255,0.75);
+font-weight: light;
+display: block;
+margin: 0 0 12px 0;
+line-height: 36px;
+color: #484848;
+text-align: center;
+}
+
+
+.error
+{
+
+margin-left:185px;
+margin-top:20px;
+width:600px;
+border:0px solid black;
+min-height:40px;
+height:auto;
+text-transform: uppercase;
+display:inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

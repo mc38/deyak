@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Created by Mickel Chowdhury,(DOB- 13-03-1992)
+ * Agartala,Tripura,India,pin 799006
+ * Contact - 9485117029
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/home_layout_consumer_list_back">
+
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_consumer"
+            android:background="@drawable/home_consumer_list_icon_back"/>
+
+        <TextView android:id="@+id/consumerlist_premeterstatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="Meter OK"
+            android:gravity="center"
+            android:textColor="@color/colorThird"
+            android:textSize="10dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="9dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/consumerlist_name"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/home_layout_consumer_list_text_1"
+            android:text="Mickel Chowdhury"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/consumerlist_cid"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="@color/home_layout_consumer_list_text_1"
+                android:text="1252252363236323"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="30dp">
+
+                <ImageView
+
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/ic_meter"
+                    android:background="@drawable/home_consumer_list_icon_back"/>
+
+                <TextView
+                    android:id="@+id/consumerlist_meterno"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:textSize="12dp"
+                    android:textColor="@color/home_layout_consumer_list_text_1"
+                    android:text="AS12523"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Consumer no - "/>
+
+            <TextView
+                android:id="@+id/consumerlist_oldcid"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="@color/home_layout_consumer_list_text_1"
+                android:text="1252252363236323"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/consumerlist_address"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="@color/home_layout_consumer_list_text_1"
+                android:text="Chowdhury Tilla, Indranagar,Agartala, Tripura, West, ASDF , pIN: 799006"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

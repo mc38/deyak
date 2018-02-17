@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:calibri;
+	cursor:default;
+	-webkit-touch-callout: none;
+	-moz-touch-callout: none;
+	touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+.content-list{
+	-webkit-touch-callout: text;
+	-moz-touch-callout: text;
+	touch-callout: text;
+	-webkit-user-select: text;
+	-moz-user-select: text;
+	user-select: text;
+}
+
+
+/* scroll bar */
+div.stylist-scroll::-webkit-scrollbar{
+	width:8px;
+}
+div.stylist-scroll::-webkit-scrollbar-track{
+	background:rgba(0,0,0,0.1);
+	width:100%;
+	border-radius:4px;
+}
+div.stylist-scroll::-webkit-scrollbar-thumb{
+	background:rgba(0,0,0,0.8);
+	border-radius:4px;
+}
+div.stylist-scroll::-webkit-scrollbar-thumb:hover{
+	background:rgba(0,0,0,1);
+}
+
+
+/* button */
+/*__color__________________________________________*/
+
+.button_red{
+	background:linear-gradient(#f73847,#e11e26) !important;
+	border:1px solid #e11e26 !important;
+}
+.button_red:active{
+	background:#e11e26 !important;
+}
+
+.button_green{
+	background:linear-gradient(#37ba0a,#308a26) !important;
+	border:1px solid #308a26 !important;
+}
+.button_green:active{
+	background:#308a26 !important;
+}
+
+
+
+/*Cover Style*/
+.cover{
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.5);
+	position:fixed;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.cover-main{
+	height:100%;
+	overflow-y:scroll;
+}

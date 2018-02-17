@@ -1,0 +1,167 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  cursor: default;
+  font-family: calibri;
+}
+
+.container{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+span{
+  display: block;
+}
+
+.table{
+  text-align: center;
+  margin-bottom: 10px !important;
+}
+
+td{
+  padding: 0px 5px;
+}
+
+.padding{
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+
+
+.box{
+  border: 1px solid #000;
+}
+
+.table .head_one{
+  width: 20%;
+  background-repeat: no-repeat;
+  height: auto;
+  background-size: 100px 100px;
+  background-position: center;
+}
+
+.table .head_two{
+  width: 60%;
+  font-weight: bold;
+  color: #072066;
+  font-size: 20px;
+  font-family: calibri;
+}
+
+.table .head_three{
+  vertical-align: bottom;
+}
+
+.table .head_three span{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.left_box table{
+  width: 100%;
+}
+
+.tab_two{
+  border: 1px solid #000;
+  border-left: 1px solid #000 !important;
+  text-align: center;
+  width: 100%;
+}
+
+.tab_two th{
+  text-align: center !important;
+}
+
+.lft_tab{
+  height: 270px;
+}
+
+.caps{
+  font-family: calibri;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.caps_sm{
+  font-family: calibri;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.bord td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.color table td{
+  border-color: #5E5E82 !important;
+}
+
+.pad{
+  padding: 0px 5px;
+}
+
+.det{
+  padding: 5px;
+}
+
+.barcode{
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+}
+
+.med{
+  text-align: center !important;
+}
+
+.let{
+  font-family: calibri;
+  font-size: 13px;
+  text-align: justify;
+}
+
+.new_tab{
+  margin-top: 10px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.new_tab_child{
+  width: 100%;
+  max-width: 100%;
+  margin-top: 2px;
+}
+
+.top{
+  vertical-align: top;
+  width: 30px;
+}
+
+.watermark{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50% auto;
+  opacity: 0.3;
+
+}
+
+.len{
+  height: 475px;
+}
+
+.wid{
+  width: 50%;
+  text-align: justify;
+  font-size: 13px;
+}
+
+.wid_right{
+  text-align: right;
+  font-size: 13px;
+}
+
+.med_rt{
+  text-align: right;
+}
